@@ -134,10 +134,10 @@ const agregarProductoAlCarrito = (item) =>{
     }
     renderizarCarrito(carrito)
 }
-
+/* 
 agregarProductoAlCarrito({
     nombre: 'Honda Civic',
     id: 20,
     precio: 25000,
     thumbnail: "https://sublitextil.com.ar/wp-content/uploads/2019/01/Remera-sublimar-hombre-.jpg"
-})
+}) */
