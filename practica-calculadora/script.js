@@ -45,11 +45,14 @@ const login = () =>{
     solicitarPassword = prompt('Error: Ingrese una contraseña válida')
     }
     usuario.password = solicitarPassword
+
     alert(`Usuario ${usuario.email} registrado`)
 
     return usuario
 }
 
+let usuarioRegistrado = login()
+localStorage.setItem('usuario', JSON.stringify(usuarioRegistrado))
 
 /* ## Calculadora de operaciones
 
@@ -101,5 +104,4 @@ const calculadora = () =>{
     alert(`El resultado de ${numero1} ${operacion} ${numero2} es ${resultado}`)
 }
 
-login()
 calculadora()
