@@ -33,7 +33,7 @@ const decrementar = () =>{
     if(cantidad > 1){
         cantidad = cantidad - 1
     }
-    else{
+    else if (numero === 1){
     btnComprarHTML.style.display = 'flex'
     contenedorContadorHTML.style.display = 'none'
     }
