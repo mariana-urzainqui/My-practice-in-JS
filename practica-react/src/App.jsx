@@ -61,7 +61,7 @@ const App = () =>{
 
 export default App
 */
-
+/* 
 import React from "react" 
 import UserCard from "./Components/UserCard/UserCard"
 import UserCardList from "./Components/UserCardList/UserCardList"
@@ -86,6 +86,22 @@ const App = () =>{
   return(
     <>
       <UserCardList usuarios={usuarios}/>
+    </>
+  )
+}
+
+export default App */
+
+import React from 'react'
+import Counter from "./Components/Counter/Counter"
+
+
+const App = () => {
+
+
+  return (
+    <>
+    <Counter limit={3}/>
     </>
   )
 }
